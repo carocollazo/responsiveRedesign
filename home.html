@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- TODO: add additional pnks here! e.g. fonts, icons, more stylesheets, etc. -->
+    <meta charset="UTF-8" />
+    <style>
+      body {margin: 0%;}
+      .title-container {display: block; color: white; background-color: rgb(61, 90, 61); width: auto; height: 100%; font-size: 350%; padding: .5% 0 .5% 3%;}
+      .main-container {display: flex; flex-direction: column; height: 100%;}
+      .image-container { height: 100%;}
+      /* img {position: absolute; z-index: -2; min-height: 100%; min-width: 100%; height: 100%;} */
+      img {position: absolute; z-index: -2; max-height: 100%; width: 100%;}
+      .image-text-container {display: flex; flex-direction: column; text-align: center; z-index: 9; padding-top: 30%; padding-bottom: 20%; gap: 20px;}
+      .image-text {font-size: 150%; text-align: center; color: black; font-style: italic;}
+      .buttons-container {display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0px 33% 0px 33%; gap: 20px;}
+      button {background-color: rgb(61, 90, 61); height: 40px; width: 200px; border-radius: 5px; border-color: transparent; color: white; font-weight: bolder;}
+      .POb9Qd {text-align: center;}
+      .uTPl7d {display: flex; flex-direction: column; text-align: center; gap: 75px; padding-bottom: 30px;}
+      .I1jLM {display: flex; flex-direction: column; justify-items: center; padding: 0px 100px 0px 100px;}
+      .A8tyw {display: flex; flex-wrap: wrap; gap: 50px; align-content: center; justify-content: center;}
+      .eJXTXb {display: flex; flex-direction: column; min-width: 100px; min-height: 100%;}
+      .CIiMxd {font-style: italic;}
+
+    </style>
+  </head>
+
+  <body>
+    <!-- TODO: put your HTML code here! -->
+    <div class="title-container">
+      Freddy los Pinos
+    </div>
+    <div class="main-container">
+      <div class="image-container">
+        <div>
+          <img src="https://lafincanaguabo.com/wp-content/uploads/2021/01/arroz_blanco.jpg" alt="comida criolla"/></div>
+        <div class="image-text-container">
+          <div class="image-text"><b>Abierto 24/7</b></div>
+          <div class="buttons-container">
+            <button onclick="window.location.href='tel:+17872681259'">Llamar Ahora</button>
+            <button onclick="window.location.href='//www.google.com/maps/dir//Restaurante+Freddy+los+Pinos/data=!4m8!4m7!1m0!1m5!1m1!1s0x8c0365dc04ae7375:0xdf8836371738bd95!2m2!1d-66.02639909999999!2d18.4433132'">Cómo Llegar</button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="b0t70b" id="menu" data-panel="menu-panel">
+        <div class="POb9Qd">
+          <hr class="WUdCTb">
+          <h2 class="Igsabe">Menú</h2>
+        </div>
+        <div class="uTPl7d">
+          <div class="I1jLM">
+            <h3 class="Ya6MGe ">Aperitivos / appetizers</h3>
+            <div class="A8tyw">
+              <div class="eJXTXb">
+                <h4 class="uKXCDd">Alitas de pollo</h4>
+                <div class="AixKWd"> $8.00 </div>
+                <div class="CIiMxd"> Chicken wings </div>
+              </div>
+              <div class="eJXTXb">
+                <h4 class="uKXCDd">Carne frita</h4>
+                <div class="AixKWd"> $9.99 </div>
+                <div class="CIiMxd"> Fried pork </div>
+              </div>
+              <div class="eJXTXb">
+                <h4 class="uKXCDd">Queso Frito</h4>
+                <div class="AixKWd"> $6.99 </div>
+                <div class="CIiMxd"> Fried cheese </div>
+              </div>
+              <div class="eJXTXb"><h4 class="uKXCDd">Salami frito</h4><div class="AixKWd"> $7.99 </div><div class="CIiMxd"> Fried salami </div></div><div class="eJXTXb"><h4 class="uKXCDd">Sorullitos</h4><div class="AixKWd"> $6.99 </div><div class="CIiMxd"> Corn sticks </div></div><div class="eJXTXb"><h4 class="uKXCDd">Minialcapurrias</h4><div class="AixKWd"> $8.99 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Mozarella sticks</h4><div class="AixKWd"> $8.99 </div><div class="CIiMxd"> Mozarella sticks </div></div><div class="eJXTXb"><h4 class="uKXCDd">Picadera de mero empanado</h4><div class="AixKWd"> $9.99 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Empanadilla</h4><div class="AixKWd"> $4.00 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Picadera chicharron de pollo</h4><div class="AixKWd"> $9.99 </div><div class="CIiMxd"> Crispy fried chicken </div></div><div class="eJXTXb"></div><div class="eJXTXb"></div></div></div>
+          <div class="I1jLM">
+            <h3 class="Ya6MGe ">Desayunos / Breakfast</h3><div class="A8tyw"><div class="eJXTXb"><h4 class="uKXCDd">Tostada</h4><div class="AixKWd"> $3.99 </div><div class="CIiMxd"> Toast </div></div><div class="eJXTXb"><h4 class="uKXCDd">Tostada con Queso</h4><div class="AixKWd"> $4.99 </div><div class="CIiMxd"> Toast with cheese </div></div><div class="eJXTXb"><h4 class="uKXCDd">Huevos Fritos</h4><div class="AixKWd"> $8.95 </div><div class="CIiMxd"> Fried eggs </div></div><div class="eJXTXb"><h4 class="uKXCDd">Revoltillo</h4><div class="AixKWd"> $8.95 </div><div class="CIiMxd"> Scrambled eggs </div></div><div class="eJXTXb"><h4 class="uKXCDd">Tortilla</h4><div class="AixKWd"> $8.95 </div><div class="CIiMxd"> Omelet </div></div><div class="eJXTXb"><h4 class="uKXCDd">Tostada Francesa</h4><div class="AixKWd"> $8.95 </div><div class="CIiMxd"> French toast </div></div><div class="eJXTXb"><h4 class="uKXCDd">Avena Peq.</h4><div class="AixKWd"> $3.95 </div><div class="CIiMxd"> Small oats </div></div><div class="eJXTXb"><h4 class="uKXCDd">Pancakes</h4><div class="AixKWd"> $8.95 </div><div class="CIiMxd"> Pancakes </div></div><div class="eJXTXb"><h4 class="uKXCDd">Avena grande</h4><div class="AixKWd"> $6.00 </div><div class="CIiMxd"> Big oats </div></div></div></div>
+            <div class="I1jLM">
+              <h3 class="Ya6MGe ">Sandwiches</h3>
+              <div class="A8tyw">
+                <div class="eJXTXb">
+                  <h4 class="uKXCDd">Jamon y Queso</h4><div class="AixKWd"> $6.99 </div><div class="CIiMxd"> Jam and cheese </div></div><div class="eJXTXb"><h4 class="uKXCDd">Jamon, Queso y Huevo</h4><div class="AixKWd"> $8.00 </div><div class="CIiMxd"> Jam, egg and cheese </div></div><div class="eJXTXb"><h4 class="uKXCDd">Combinacion</h4><div class="AixKWd"> $8.50 </div><div class="CIiMxd"> Jam, egg, cheese and salad </div></div><div class="eJXTXb"><h4 class="uKXCDd">Cubano</h4><div class="AixKWd"> $10.99 </div><div class="CIiMxd"> Cuban </div></div><div class="eJXTXb"><h4 class="uKXCDd">Pollo</h4><div class="AixKWd"> $10.99 </div><div class="CIiMxd"> Chicken </div></div><div class="eJXTXb"><h4 class="uKXCDd">Tocineta, Queso y Huevo</h4><div class="AixKWd"> $8.95 </div><div class="CIiMxd"> Bacon, egg and cheese </div></div><div class="eJXTXb"><h4 class="uKXCDd">Huevo y Queso</h4><div class="AixKWd"> $6.99 </div><div class="CIiMxd"> Egg and cheese </div></div><div class="eJXTXb"><h4 class="uKXCDd">Atun</h4><div class="AixKWd"> $9.95 </div><div class="CIiMxd"> Tuna </div></div><div class="eJXTXb"><h4 class="uKXCDd">Bistec</h4><div class="AixKWd"> $10.95 </div><div class="CIiMxd"> Steak </div></div></div></div><div class="I1jLM"><h3 class="Ya6MGe ">Acompañantes / Side Dishes</h3><div class="A8tyw"><div class="eJXTXb"><h4 class="uKXCDd">Arroz y Habichuelas</h4><div class="AixKWd"> $3.50 </div><div class="CIiMxd"> Rice and beans </div></div><div class="eJXTXb"><h4 class="uKXCDd">Arroz Mamposteado</h4><div class="AixKWd"> $4.50 </div><div class="CIiMxd"> Puerto rican rice style </div></div><div class="eJXTXb"><h4 class="uKXCDd">Tostones</h4><div class="AixKWd"> $3.00 </div><div class="CIiMxd"> Fried plantains </div></div><div class="eJXTXb"><h4 class="uKXCDd">Papas Fritas</h4><div class="AixKWd"> $3.00 </div><div class="CIiMxd"> French fries </div></div><div class="eJXTXb"><h4 class="uKXCDd">Amarillos</h4><div class="AixKWd"> $3.00 </div><div class="CIiMxd"> Sweet plantains </div></div><div class="eJXTXb"><h4 class="uKXCDd">Mofongo</h4><div class="AixKWd"> $4.50 </div><div class="CIiMxd"> Mashed plantains </div></div><div class="eJXTXb"><h4 class="uKXCDd">Arroz</h4><div class="AixKWd"> $2.00 </div><div class="CIiMxd"> Rice </div></div><div class="eJXTXb"><h4 class="uKXCDd">Habichuelas</h4><div class="AixKWd"> $1.75 </div><div class="CIiMxd"> Beans </div></div><div class="eJXTXb"></div></div></div><div class="I1jLM"><h3 class="Ya6MGe ">Bebidas / Drinks</h3><div class="A8tyw"><div class="eJXTXb"><h4 class="uKXCDd">Botella de agua</h4><div class="AixKWd"> $1.41 </div><div class="CIiMxd"> Bottle water </div></div><div class="eJXTXb"><h4 class="uKXCDd">Refresco de lata</h4><div class="AixKWd"> $1.41 </div><div class="CIiMxd"> Can soda </div></div><div class="eJXTXb"><h4 class="uKXCDd">Refresco de botella</h4><div class="AixKWd"> $1.80 </div><div class="CIiMxd"> Bottle soda </div></div><div class="eJXTXb"><h4 class="uKXCDd">Jugo de fruta</h4><div class="AixKWd"> $2.00 </div><div class="CIiMxd"> Juice </div></div><div class="eJXTXb"><h4 class="uKXCDd">Perrier</h4><div class="AixKWd"> $2.50 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Arizona</h4><div class="AixKWd"> $1.75 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Ginger Ale</h4><div class="AixKWd"> $1.75 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Ciclon</h4><div class="AixKWd"> $3.00 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Gatorade</h4><div class="AixKWd"> $2.25 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Malta</h4><div class="AixKWd"> $1.75 </div><div class="CIiMxd"> Malt </div></div><div class="eJXTXb"><h4 class="uKXCDd">Cafe regular</h4><div class="AixKWd"> $2.25 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Cafe Peq.</h4><div class="AixKWd"> $1.50 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Snapple</h4><div class="AixKWd"> $2.25 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Cranberry</h4><div class="AixKWd"> $1.75 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Te</h4><div class="AixKWd"> $2.25 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Cafe Calle Grande</h4><div class="AixKWd"> $3.00 </div></div><div class="eJXTXb"></div><div class="eJXTXb"></div></div></div><div class="I1jLM"><h3 class="Ya6MGe ">Platos Principales / Main Dishes</h3><div class="A8tyw"><div class="eJXTXb"><h4 class="uKXCDd">Pollo Frito</h4><div class="AixKWd"> $12.95 </div><div class="CIiMxd"> Fried chicken </div></div><div class="eJXTXb"><h4 class="uKXCDd">Chicharron de pollo</h4><div class="AixKWd"> $13.95 </div><div class="CIiMxd"> Crispy fried chicken </div></div><div class="eJXTXb"><h4 class="uKXCDd">Hamburguesa</h4><div class="AixKWd"> $10.25 </div><div class="CIiMxd"> Hamburger </div></div><div class="eJXTXb"><h4 class="uKXCDd">Pechuga de pollo a la sarten</h4><div class="AixKWd"> $13.95 </div><div class="CIiMxd"> Grilled chicken breast </div></div><div class="eJXTXb"><h4 class="uKXCDd">Bistec encebollado</h4><div class="AixKWd"> $13.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Masitas de cerdo</h4><div class="AixKWd"> $13.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Chdiveta Frita</h4><div class="AixKWd"> $13.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Churrasco a la parrilla</h4><div class="AixKWd"> $22.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Salmorejo de jueyes</h4><div class="AixKWd"> $16.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Pasta penne con pollo</h4><div class="AixKWd"> $14.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Pasta penne con camarones</h4><div class="AixKWd"> $19.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Hamburguesa con queso</h4><div class="AixKWd"> $10.99 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Bistec empanado</h4><div class="AixKWd"> $14.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Bistec a la milanesa</h4><div class="AixKWd"> $15.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Bistec salteado</h4><div class="AixKWd"> $14.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Pechuga de pollo empanada</h4><div class="AixKWd"> $14.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Pechuga de pollo a la milanesa</h4><div class="AixKWd"> $15.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Camarones al ajillo o criolla</h4><div class="AixKWd"> $19.99 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Pasta Penne</h4><div class="AixKWd"> $9.00 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Filete de mero al ajillo o criolla</h4><div class="AixKWd"> $15.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Filete de salmon</h4><div class="AixKWd"> $16.99 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Chillo entero</h4></div><div class="eJXTXb"><h4 class="uKXCDd">Chicken tenders con papas</h4><div class="AixKWd"> $10.95 </div></div><div class="eJXTXb"></div></div></div><div class="I1jLM"><h3 class="Ya6MGe ">Postres / Desserts</h3><div class="A8tyw"><div class="eJXTXb"><h4 class="uKXCDd">Bizcocho tres leches</h4><div class="AixKWd"> $3.75 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Flan</h4><div class="AixKWd"> $3.25 </div></div><div class="eJXTXb"></div></div></div><div class="I1jLM"><h3 class="Ya6MGe ">Mofongos / Mashed Plantains</h3><div class="A8tyw"><div class="eJXTXb"><h4 class="uKXCDd">Mofongo relleno de pollo</h4><div class="AixKWd"> $13.99 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Mofongo relleno de churrasco</h4><div class="AixKWd"> $21.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Mofongo relleno de pulpo</h4><div class="AixKWd"> $18.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Mofongo relleno de camarones</h4><div class="AixKWd"> $18.99 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Mofongo relleno de jueyes</h4><div class="AixKWd"> $15.95 </div></div><div class="eJXTXb"></div></div></div><div class="I1jLM"><h3 class="Ya6MGe ">Sopas / Soups</h3><div class="A8tyw"><div class="eJXTXb"><h4 class="uKXCDd">Sopa de pollo Peq.</h4><div class="AixKWd"> $5.00 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Sopa de pollo Grande</h4><div class="AixKWd"> $10.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Sopa de platano Peq.</h4><div class="AixKWd"> $4.25 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Sopa de platano grande</h4><div class="AixKWd"> $6.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Asopao de pollo</h4><div class="AixKWd"> $10.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Asopao de camarones</h4><div class="AixKWd"> $18.95 </div></div></div></div><div class="I1jLM"><h3 class="Ya6MGe ">Ensaladas / Salads</h3><div class="A8tyw"><div class="eJXTXb"><h4 class="uKXCDd">Ensalada verde grande</h4><div class="AixKWd"> $5.25 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Ensalada verde Peq.</h4><div class="AixKWd"> $3.00 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Ensalada de atun</h4><div class="AixKWd"> $12.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Ensalada de pulpo</h4><div class="AixKWd"> $19.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Ensalada Caesar</h4><div class="AixKWd"> $8.95 </div></div><div class="eJXTXb"><h4 class="uKXCDd">Ensalada Caesar con pollo</h4><div class="AixKWd"> $13.95 </div></div></div></div></div></div>
+      
+      
+    </div>
+  </body>
+</html>
